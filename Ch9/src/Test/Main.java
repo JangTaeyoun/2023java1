@@ -6,8 +6,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		//A a = new A();
 		//A.B b = new a.new B();
-		A.C b = new A.C();
-		A.memberA = 20;
+		A.C c = new A.C();
+		c.field1 = 10;
+		c.field2 = 20;
 
 	}
 
