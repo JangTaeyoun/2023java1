@@ -7,8 +7,11 @@ public class Main {
 		Button b = new Button();
 		
 		Call c = new Call();
-		
 		b.SetOnClickListener(c);
+		b.touch();
+
+		Message m = new Message();
+		b.SetOnClickListener(m);
 		b.touch();
 
 	}
