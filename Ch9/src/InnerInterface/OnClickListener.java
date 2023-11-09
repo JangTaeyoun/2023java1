@@ -1,6 +1,6 @@
 package InnerInterface;
 
-public class OnClickListener {
+public interface OnClickListener {
 	void onClick();
 
 }
